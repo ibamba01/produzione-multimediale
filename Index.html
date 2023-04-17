@@ -18,11 +18,22 @@
   <header>
       <div class="flag">
           <div class="container-fluid">
+
+
+              <!-- fluid sub1 -->
               <div class="container-fluid_1">
+
+
+                  <!-- fluid sub1 -->
                   <div class="container-fluid_sub1">
-                          <button class="openbtn " data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+
+
+
+
+
+                      <button class="openbtn " data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                               <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                          </svg></button>
+                      </svg></button>
 
                       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                           <div class="offcanvas-header">
@@ -85,8 +96,6 @@
                       <b>78°F</b>
                       <small>82</small>
                       <small> 77 </small>
-                      <!-- widget dinamico
-                      <div id="idfb3b512f7be73" a='{"t":"s","v":"1.2","lang":"en","locs":[1160],"ssot":"f","sics":"ds","cbkg":"rgba(245,130,130,0)","cfnt":"rgba(0,0,0,1)","slfs":32,"slis":"45","slgp":"14","sfnt":"a","sdr":"lr"}'>Weather Data Source: <a href="https://sharpweather.com/weather_miami/30_days/">weather 30 days Miami</a></div><script async src="https://static1.sharpweather.com/widgetjs/?id=idfb3b512f7be73"></script> -->
                   </div>
               </div>
 
@@ -101,22 +110,24 @@
                   </a>
               </div>
               <div class="line"> <hr> </div>
-              <div class="slider">
-                  <div class="toolbar-row">
-                          <a href="#">News</a>
-                          <a href="#">Sports</a>
-                          <a href="#">Business</a>
-                          <a href="#">Politics</a>
-                          <a href="#">Opinion</a>
-                          <a href="#">Food & Drink</a>
-                          <a href="#">Climate Change</a>
-                          <a href="#">Photos</a>
-                          <a href="#">Videos</a>
-                          <a href="#">Jobs</a>
-                          <a href="#">News</a>
+              <!-- gli articoli sono scorribili-->
+              <div class="toolbar-row side_bar">
+                  <div class="force-overflow">
+                      <a class="fw-bold" href="#">News</a>
+                      <a class="fw-bold" href="#">Sports</a>
+                      <a class="fw-bold" href="#">Business</a>
+                      <a class="fw-bold" href="#">Politics</a>
+                      <a class="fw-bold" href="#">Opinion</a>
+                      <a class="fw-bold" href="#">Food & Drink</a>
+                      <a class="fw-bold" href="#">Climate Change</a>
+                      <span class="separator">•</span>
+                      <a href="#">Sport Betting</a>
+                      <a href="#">Personal Finance</a>
+                      <a href="#">Pubblic Notices</a>
+                      <a href="#">Obituaries</a>
+                      <a href="#">Accesso USA</a>
                   </div>
               </div>
-              <div class="line"> <hr> </div>
           </div>
       </div>
 
@@ -151,11 +162,18 @@
 
       <div class="container-fluid">
           <div class="row">
+              <!-- la prima riga è formata da due colonne quella più piccola deve essere spostata quando ridimensiono il formato -->
               <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                  <!-- contiene una singola card composta da link e date-->
                   <div class="card text card_bord">
-                      <div class="d-flex justify-content-center">   <span class="label">Latest News</span> </div>
+
+                      <div class="d-flex justify-content-center">
+                          <!-- rettangolo colorato -->
+                          <span class="label">Latest News</span>
+                      </div>
                       <div class="card-body">
                           <div class="articlepackage">
+                              <!--un package è fomato da link e una data -->
                               <a href="#" class="articlelink" >
                                   <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
                               </a>
@@ -192,6 +210,7 @@
                   </div>
               </div>
               <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                  <!-- seconda colonna contiene una foto  -->
                   <div class="card mb-3 card_bord">
                       <img src="https://www.miamiherald.com/latest-news/z0nnbk/picture274246740/alternates/LANDSCAPE_768/MIA_weatherclo0412AS32.JPG" class="card-img-top" alt="...">
                       <div class="card-body ">
@@ -201,8 +220,10 @@
                           <p class="card-text"><div class="time">UPDATED 3 mins ago</div></p>
                       </div>
                   </div>
+                  <!-- seconda riga della colonna più grande vine divisa a metà -->
                   <div class="row">
                       <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                          <!-- solo due colonne avranno immagini una è vuota per la pubblicità -->
                           <div class="card w-auto p-3 card_bord" style="width: 22rem;">
                               <img src="https://images.taboola.com/taboola/image/fetch/f_jpg,q_auto,c_fill,g_faces:auto,e_sharpen,w_365,h_205/https%3A//www.miamiherald.com/latest-news/qa5nhf/picture274233970/alternates/LANDSCAPE_1140/RachelKing.jpg" class="card-img-top" alt="...">
                               <div class="card-body">
@@ -277,8 +298,336 @@
           </div>
       </div>
       <div class="container-fluid">
-
+          <span class="scritta fw-bold">Videos</span>
+          <div class="lineagrigia"><hr></div>
       </div>
+      <!-- Lettore video-->
+      <div class="container-fluid bg-dark p-2 mt-3 mb-3 lettore">
+          <div class="row text-center titolo-sezione mt-3">
+          </div>
+          <div class="row text-center mt-4">
+              <div class="col-10">
+                  <iframe class="myvideo" src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div class="col-2">
+                  <div class="myscroll">
+                      <div class="col-12 col-sm-12 col-md-6 myscrolling" >
+                          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="img-fluid" alt="Immagine non caricata"></a>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-6 myscrolling" >
+                          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="img-fluid" alt="Immagine non caricata"></a>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-6 myscrolling" >
+                          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="img-fluid" alt="Immagine non caricata"></a>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-6 myscrolling" >
+                          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="img-fluid" alt="Immagine non caricata"></a>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-6 myscrolling" >
+                          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="img-fluid" alt="Immagine non caricata"></a>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-6 myscrolling" >
+                          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="img-fluid" alt="Immagine non caricata"></a>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-6 myscrolling" >
+                          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="img-fluid" alt="Immagine non caricata"></a>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-6 myscrolling" >
+                          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="img-fluid" alt="Immagine non caricata"></a>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-6 myscrolling" >
+                          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="img-fluid" alt="Immagine non caricata"></a>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-6 myscrolling" >
+                          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="img-fluid" alt="Immagine non caricata"></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                  <div class="card text card_bord">
+                      <div class="immage">
+                          <img src="https://www.miamiherald.com/miami-com/d8wvb3/picture251649368/alternates/LANDSCAPE_768/vendome" style="width:100%;">
+                          <span class="label top">MIAMI.COM</span>
+                      </div>
+                      <div class="card-body">
+                          <div class="articlepackage">
+                              <!--un package è fomato da link e una data -->
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                      </div>
+                      <div class="d-flex justify-content-end">  <a href="#" class="morein">MORE IN LATEST NEWS <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                  <div class="card text card_bord">
+                      <div class="immage">
+                          <img src="https://www.miamiherald.com/latest-news/20q4ye/picture274381325/alternates/LANDSCAPE_768/MIA_PANTHERSVSHURRICANESAS099.JPG" style="width:100%;">
+                          <span class="label topp">SPORT</span>
+                      </div>
+                      <div class="card-body">
+                          <div class="articlepackage">
+                              <!--un package è fomato da link e una data -->
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                      </div>
+                      <div class="d-flex justify-content-end">  <a href="#" class="morein">MORE SPORT<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="pubblicità">
+
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                  <div class="card text card_bord">
+                      <div class="immage">
+                          <img src="https://www.miamiherald.com/latest-news/ygufsl/picture264149411/alternates/LANDSCAPE_768/MIA_07BIZBROWARDLUXURYSALES" style="width:100%;">
+                          <span class="label top">BUISNESS</span>
+                      </div>
+                      <div class="card-body">
+                          <div class="articlepackage">
+                              <!--un package è fomato da link e una data -->
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                      </div>
+                      <div class="d-flex justify-content-end">  <a href="#" class="morein">MORE IN BUSINESS<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                  <div class="card text card_bord">
+                      <div class="immage">
+                          <img src="https://www.miamiherald.com/latest-news/ecmuzp/picture267262907/alternates/LANDSCAPE_768/52424778207_f2d160caf4_o.jpg" style="width:100%;">
+                          <span class="label topp">OPINION</span>
+                      </div>
+                      <div class="card-body">
+                          <div class="articlepackage">
+                              <!--un package è fomato da link e una data -->
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                      </div>
+                      <div class="d-flex justify-content-end">  <a href="#" class="morein">MORE IN OPINION<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg></a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                  <form>
+                      <h5>Today’s top headlines</h5>
+                      <p>Sign up for the Afternoon Update and get the day’s biggest stories in your inbox.</p>
+                          <div class="row">
+                              <label for="newsletter1" class="visually-hidden">Enter Email address</label>
+                              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                          </div>
+                          <div class="row">
+                              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                  <button class="btn emailbutton" type="button">SING UP</button>
+                              </div>
+                          </div>
+                  </form>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                  <div class="card text card_bord">
+                      <div class="immage">
+                          <img src="https://www.miamiherald.com/latest-news/ecmuzp/picture267262907/alternates/LANDSCAPE_768/52424778207_f2d160caf4_o.jpg" style="width:100%;">
+                          <span class="label topp">OPINION</span>
+                      </div>
+                      <div class="card-body">
+                          <div class="articlepackage">
+                              <!--un package è fomato da link e una data -->
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                          <div class="articlepackage">
+                              <a href="#" class="articlelink" >
+                                  <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                              </a>
+                              <div class="time">APRIL 9, 2023 20:21 PM</div>
+                          </div>
+                      </div>
+                      <div class="d-flex justify-content-end">  <a href="#" class="morein">MORE IN OPINION<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg></a>
+                      </div>
+                  </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4"></div>
+          </div>
+
+
+
+
+      <footer class="fine">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                      <h5>Take Us With You</h5>
+                      <p>Real-time updates and all local stories you want right in the palm of your hand.</p>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-4 col-lg-8">
+
+                      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                          <h5>SUBSCRIPTIONS</h5>
+                          <a href="#">Start a Subscription</a>
+
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                          <h5>LEARN MORE</h5>
+
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                          <h5>ADVERTISING</h5>
+
+                      </div>
+                  </div>
+
+
+              </div>
+          </div>
+
+      </footer>
+
   </header>
 
 
