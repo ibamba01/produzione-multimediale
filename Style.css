@@ -84,6 +84,7 @@ a:hover{
     padding: 10px;
     font: 13px "Noto Sans", sans-serif;
     transition: color 0.5s;
+    margin-top: 15px;
 }
 .btn-subscribe:hover{
     color: yellow;
@@ -91,10 +92,10 @@ a:hover{
 .btn-login{
     color : #00223e;
     font: 13px "Noto Sans", sans-serif;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-bottom: 5px;
-    padding-top: 5px;
+    padding-top: 25px;
     margin-right: 5px;
 }
 .btn-login:hover{
@@ -109,11 +110,21 @@ a:hover{
 .meteo{
     display: flex;
     flex-direction: row;
-    gap:5px;
+    gap:7px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 .edition{
     font: 13px "Noto Sans", sans-serif;
     font-weight: bolder;
+}
+.data{
+    margin-top: 20px;
+}
+.search{
+    padding-top: 14px;
+    padding-bottom: 10px;
+    padding-left: 0px;
 }
 
 @media (max-width: 768px) {
@@ -126,6 +137,9 @@ a:hover{
     .data{
         display: none;
     }
+    .meteo{
+        display: none;
+    }
 }
 
 .edition:hover{
@@ -133,15 +147,13 @@ a:hover{
     color: #000000;
 }
 .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
     width: 100%;
     height: 100%;
     padding: 30px;
     padding-top: 0;
     padding-bottom: 10px;
+    min-width: 20vw;
 }
 .immlog{
     width: 50vw;
@@ -522,12 +534,135 @@ a:hover{
     border-radius: 4px;
 }
 .fine{
-    background-color: black;
+    background-color: #373737;
     color: white;
+    padding: 0px;
+    margin: 0px;
 }
 .fine a{
     color: white;
+margin: 10px
 }
 .fine a:hover{
     text-decoration: underline;
+}
+.piccolo{
+    font-size: x-small;
+    margin-bottom: 10px;
+}
+header2{
+    background-color: #373737;
+}
+.sfondo{
+    background-color: #373737;
+    padding-bottom: 90px;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+.content{
+    margin-top: 40px;
+    margin-left: 20px;
+    color: white;
+}
+.content a{
+    color: white;}
+.content a:hover{
+    text-decoration: none;
+}
+
+.sfondoso{
+    background-color: #373737;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.scrittagrossa{
+    color: white;
+    font: 28px "Noto Sans", sans-serif;
+    font-weight: bolder;
+
+}
+.scrittagrossa a :hover{
+    text-decoration: underline;
+    color: white;
+}
+.miamiheralbutton{
+    border-radius: 5px;
+    border-color: #373737;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+.campo{
+   padding: 10px;
+}
+.spazio{
+    padding-bottom: 10px;
+}
+.offcanvas-start{
+    --bs-offcanvas-width: 270px;
+    --bs-offcanvas-bg: #373737;
+    --bs-offcanvas-color: white;
+    --bs-offcanvas-padding-y: 0;
+}
+.offcanvas-body{
+    --bs-offcanvas-color: white;
+    --bs-offcanvas-padding-x: 0;
+    --bs-offcanvas-padding-y: 0;
+}
+.btn-close{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.offcanvasbutton{
+    padding-right: 231px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background-color: #373737;
+    border: none;
+}
+.offcanvasbutton:hover{
+    background-color: black;
+}
+.offcanvasbutton-dd{
+    padding-right: 105px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background-color: #373737;
+    border: none;
+}
+.offcanvasbutton-dd:hover{
+    background-color: black;
+}
+.dropdown{
+    --bs-dropdown-header-padding-y: o;
+}
+.dropdown-menu{
+    --bs-dropdown-bg: black;
+    --bs-dropdown-border: none;
+    --bs-dropdown-padding-x: 20px;
+}
+.dropdown-item{
+    color: grey;
+}
+.dropdown-item:hover{
+    color:white;
+    background-color: black;
+}
+.linebianca{
+    color: white;
+    height:2px;
+    border-width:0;
+    background-color:#DDDDDD;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
