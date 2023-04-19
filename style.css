@@ -1,7 +1,6 @@
 header{
 background-color: #f3f3f3;
     color: #000000;
-    padding: 10px;
     width: 100%;
 }
 /*container*/
@@ -156,8 +155,7 @@ a:hover{
     min-width: 20vw;
 }
 .immlog{
-    width: 50vw;
-    height: 100%;
+
 }
 .subtext{
     font: 13px "Noto Sans", sans-serif;
@@ -219,11 +217,16 @@ a:hover{
     width: 20px;
     height: 20px;
     border-color: #2b2f32;
-    border-width: 1px;
-    background-color: white;
+    border-width: 2px;
+    background-color: #ffffff;
+    border: solid;
+
 }
+.carousel .carousel-indicators .active {
+    background-color: blue;
+    border-color: blue;
 
-
+}
 
 .label{
     justify-self: center;
@@ -325,6 +328,7 @@ a:hover{
         overflow-y: hidden;
         width: 100%;
         height: 150px;
+        padding-bottom: 10px ;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
     }
@@ -365,6 +369,7 @@ a:hover{
         overflow-y: hidden;
         width: 100%;
         height: 150px;
+        padding-bottom: 10px ;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
     }
@@ -398,6 +403,7 @@ a:hover{
         overflow-y: scroll;
         width: 100%;
         height: 250px;
+        padding-bottom: 10px ;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
     }
@@ -438,6 +444,7 @@ a:hover{
         overflow-y: scroll;
         width: 100%;
         height: 340px;
+        padding-bottom: 10px ;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
     }
@@ -480,6 +487,7 @@ a:hover{
         overflow-y: scroll;
         width: 100%;
         height: 475px;
+        padding-bottom: 10px ;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
     }
@@ -538,6 +546,7 @@ a:hover{
     color: white;
     padding: 0px;
     margin: 0px;
+    gap: 5px;
 }
 .fine a{
     color: white;
@@ -555,9 +564,13 @@ header2{
 }
 .sfondo{
     background-color: #373737;
+    padding-left: 0px;
     padding-bottom: 90px;
     margin-bottom: 40px;
     margin-top: 70px;
+}
+.nopadding{
+    padding: 0;
 }
 .content{
     margin-top: 40px;
@@ -666,3 +679,4 @@ header2{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
