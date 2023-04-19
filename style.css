@@ -353,6 +353,10 @@ a:hover{
         width: 100%;
         max-width: 100%;
     }
+    .myvideo{
+        padding-top: 20px;
+        height: 70vw;
+    }
 }
 
 /* Small devices (between 577px and 768px) */
@@ -392,6 +396,10 @@ a:hover{
         margin: 0px;
         width: 100%;
         max-width: 100%;
+    }
+    .myvideo{
+        height: 59vw;
+        margin-top: 20px;
     }
 
 }
@@ -435,6 +443,9 @@ a:hover{
         width: 100%;
         max-width: 100%;
     }
+    .myvideo{
+        height: 40vw;
+    }
 }
 
 /* Large devices (between 993px and 1200px) */
@@ -477,6 +488,9 @@ a:hover{
         width: 100%;
         max-width: 100%;
     }
+    .myvideo{
+        height: 40vw;
+    }
 
 }
 
@@ -513,6 +527,9 @@ a:hover{
     }
     .hor-text {
         font-size:0.75em;
+    }
+    .myvideo{
+        height: 40vw;
     }
 
 }
@@ -615,6 +632,9 @@ header2{
 .spazio{
     padding-bottom: 10px;
 }
+
+
+
 .offcanvas-start{
     --bs-offcanvas-width: 270px;
     --bs-offcanvas-bg: #373737;
