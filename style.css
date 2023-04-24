@@ -340,12 +340,12 @@ a:hover{
 
     .myscrolling {
         height:auto;
-        width:100px;
+        width:auto;
     }
 
     .myscrolltxt {
         height:auto;
-        width:100px;
+        width:auto;
     }
 
     .mycontainer {
@@ -354,7 +354,8 @@ a:hover{
         max-width: 100%;
     }
     .myvideo{
-        padding-top: 20px;
+        object-fit: fill;
+        margin-top: 60px;
         height: 70vw;
     }
 }
@@ -384,12 +385,12 @@ a:hover{
 
     .myscrolling {
         height:auto;
-        width:100px;
+        width:auto;
     }
 
     .myscrolltxt {
         height:auto;
-        width:100px;
+        width:auto;
     }
 
     .mycontainer {
@@ -398,8 +399,8 @@ a:hover{
         max-width: 100%;
     }
     .myvideo{
+        margin-top: 60px;
         height: 59vw;
-        margin-top: 20px;
     }
 
 }
@@ -466,12 +467,12 @@ a:hover{
 
     .myscrolling {
         height:auto;
-        width:100px;
+        width:auto;
     }
 
     .myscrolltxt {
         height:auto;
-        width:100px;
+        width:auto;
     }
 
     .hor-card {
@@ -513,12 +514,12 @@ a:hover{
 
     .myscrolling {
         height:auto;
-        width:100px;
+        width:auto;
     }
 
     .myscrolltxt {
         height:auto;
-        width:100px;
+        width:auto;
     }
 
     .hor-card {
@@ -576,9 +577,7 @@ margin: 10px
     font-size: x-small;
     margin-bottom: 10px;
 }
-header2{
-    background-color: #373737;
-}
+
 .sfondo{
     background-color: #373737;
     padding-left: 0px;
